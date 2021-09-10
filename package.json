@@ -1,10 +1,11 @@
 {
+  "name": "WebServer",
+  "scripts":{
+    "start": "node src/app.js"
+  },
   "dependencies": {
     "express": "^4.16.4",
     "hbs": "^4.1.2",
-    "request": "^2.88.0",
-    "scripts":{
-      "start": "node src/app.js"
-    }
+    "request": "^2.88.0"
   }
 }
